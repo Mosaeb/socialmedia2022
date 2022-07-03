@@ -8,10 +8,17 @@
     <form method="POST" action="uploadfile.php" enctype="multipart/form-data">
 			<fieldset>
 				FILE: <input type="file" name="myfile"/>
-        
-				<input type="submit" name="submit" value="Submit"/>
+         <input type="submit" name="upload" value="upload">
+       </form>
+
+
+        <br><br>
+    <form method="post" action="postcheck.php">
+        Group post: <br> <textarea align="center" name="grouppost" id="" cols="30" rows="3"></textarea>
+			<br>	<input type="submit" name="submit" value="Submit"/>
 			</fieldset>
 		</form>
+  </fieldset>
     <a href="about.html">About Us</a><br />
     <a href="logout.html">Logout</a><br />
     <a href="Login.html">Login</a><br />
