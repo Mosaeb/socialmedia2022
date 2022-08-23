@@ -1,0 +1,56 @@
+body{
+    background-image: url("back3.jpg");
+}
+.reg form{
+    position: relative;
+    left: 470px;
+    top: 80px;
+    background-image: url("back2.jpg");
+    width: 600px;
+    padding: 30px 30px;
+    color: white;
+    font-size: large;
+    font: left;
+    text-align:center;
+    border-radius: 30px;
+
+}
+.reg form fieldset{
+    position: relative;
+    border-radius: 50px;
+    border-color: wheat;
+}
+.add{
+    position: relative;
+    top: 70;
+    right:200;
+    text-align: center;
+}
+.reg input{
+    background-color: transparent;
+    color: wheat;
+    position: relative;
+    border-radius: 50px;
+    border-color: wheat;
+}
+.reg select{
+    background-color: transparent;
+    color: wheat;
+    position: relative;
+    border-radius: 50px;
+    border-color: wheat;
+}
+.reg textarea{
+    background-color: transparent;
+    color: wheat;
+    position: relative;
+    border-radius:20px;
+    border-color: wheat;
+}
+.reg button{
+    background-color: transparent;
+    color: wheat;
+    position: relative;
+    border-radius:20px;
+    border-color: wheat;
+}

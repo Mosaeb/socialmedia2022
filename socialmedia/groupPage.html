@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Group Page</title>
+    <link rel="stylesheet" href="page.css"/>
+  </head>
+
+  <body>
+    <h1>Welcome to the Group Page</h1>
+    <form method="POST" action="uploadfile.php" enctype="multipart/form-data">
+			
+				FILE: <input type="file" name="myfile"/>
+         <input type="submit" name="upload" value="upload">
+       </form>
+       <div id="prevText"></div>
+        <textarea name="" id="textBox" placeholder="Add caption" ></textarea>
+       <div class="pic">
+       <script>
+        var textBox=document.getElementById("textBox");
+        textBox.onkeyup=textBox.onkeypress=function(){
+          document.getElementById("prevText").innerHTML=this.value;
+        }
+       </script>
+  </body>
+
+</html>

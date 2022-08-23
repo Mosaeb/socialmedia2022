@@ -1,0 +1,39 @@
+body{
+    background-image: url("back3.jpg");
+}
+.log form{
+    position: relative;
+    left: 470px;
+    top: 250px;
+    background-image: url("back2.jpg");
+    width: 600px;
+    height: 250px;
+    padding: 30px 30px;
+    color: white;
+    font-size: large;
+    border-radius: 30px;
+text-align: center;
+}
+.log table{
+    text-align: center;
+}
+.submit{
+    position: relative;
+    left: 300;
+    top: 20;
+}
+.log input{
+    background-color: transparent;
+    color: wheat;
+    position: relative;
+    border-radius: 50px;
+    border-color: wheat;
+}
+td{
+    color: white;
+}
+.log form fieldset{
+    position: relative;
+    border-radius: 50px;
+    border-color: wheat;
+}
